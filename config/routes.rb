@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
   resources :restaurant, only: %i[index show new create] do
-    resources :reviews, only: %i[new]
+    resources :reviews, only: %i[index new]
   end
   resources :reviews, only: %i[create]
 end

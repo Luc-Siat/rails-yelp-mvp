@@ -1,2 +1,2 @@
-module RestaurantHelper
+module RestaurantsHelper
 end
